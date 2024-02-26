@@ -1,0 +1,72 @@
+.container{
+    display: flex;
+    background: #000;
+    flex-wrap: nowrap;
+    font-weight: bold;
+}
+li {
+    color: #fff;
+    list-style-type: none;
+    padding: 10px;
+}
+.heading {
+    margin-right: auto;
+    margin-left: 250px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.secondContainer {
+
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    text-align: center;
+}
+
+.secondContainer img {
+    width: 600px;
+    height: 400px;
+}
+figcaption {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    background: #000;
+    justify-content: center;
+color: #fff;
+}
+
+.thirdContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+.first {
+    border: 1px solid black;
+    padding: 10px;
+    padding: 0px;
+    flex-direction: row;
+    
+}
+.first img {
+    width: 600px;
+    height: 400px;
+}
+.second {
+    border: 1px solid black;
+   padding: 10px;
+   flex-direction: row;
+}
+.second img {
+    width: 600px;
+    height: 400px;
+    padding: 10px;
+}
